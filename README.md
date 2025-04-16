@@ -31,7 +31,10 @@ A web-based quiz application for learning Internet of Things (IoT) concepts. Thi
    - Simply open index.html in your web browser
 
    **Option 2: Using a local server (recommended)**
-   - Install Node.js
+   - Install Node.js if you haven't already:
+     ```
+     https://nodejs.org/
+     ```
    - Install http-server:
      ```
      npm install -g http-server
