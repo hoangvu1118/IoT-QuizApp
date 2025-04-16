@@ -1,0 +1,11 @@
+{
+  "name": "iot-quiz-app",
+  "version": "1.0.0",
+  "description": "IoT Quiz Application",
+  "scripts": {
+    "start": "http-server -o"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

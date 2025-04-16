@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Quiz Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>IoT Quiz Practice</h1>
+        
+        <div class="quiz-selector">
+            <label for="quiz-select">Select a quiz:</label>
+            <select id="quiz-select">
+                <option value="">-- Select a quiz --</option>
+            </select>
+        </div>
+        
+        <div class="quiz-container" id="quiz-container">
+            <h2 id="quiz-title"></h2>
+            <div id="question-container" class="hide">
+                <h3 id="question-text"></h3>
+                <div id="answer-buttons" class="btn-grid"></div>
+            </div>
+            <div class="controls">
+                <button id="start-btn" class="start-btn btn">Start Quiz</button>
+                <button id="next-btn" class="next-btn btn hide">Next</button>
+            </div>
+            <div id="result" class="result hide">
+                <h3 id="result-text"></h3>
+                <p id="score-text"></p>
+                <button id="restart-btn" class="restart-btn btn">Restart Quiz</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
