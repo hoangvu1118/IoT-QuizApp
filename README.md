@@ -21,7 +21,7 @@ A web-based quiz application for learning Internet of Things (IoT) concepts. Thi
 
 1. Clone or download this repository to your local machine:
    ```
-   git clone [repository-url]
+   git clone https://github.com/hoangvu1118/IoT-QuizApp.git
    ```
    or download and extract the ZIP file
 
